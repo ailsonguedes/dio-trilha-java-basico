@@ -1,7 +1,7 @@
 // Anatomia de Classes
 package edu.ailson.primeirasemana;
 
-public class Aula01 {
+public class AnatomiaDeClasses {
 
     public static void main(String[] args) {
 
