@@ -88,5 +88,27 @@ public class Operadores {
         System.out.println(!var);
         System.out.println(var);
 
+        // Operador Ternário
+
+        int a, b;
+
+        a = 5;
+        b = 5;
+
+        /* Exemplo de uma condicional utilizando os operadores if e else.
+         * 
+         * String resultado = "";
+         * if(a==b)
+         *    resultado = "verdadeiro";
+         * else
+         *    resultado = "falso";
+         */
+
+         // Exemplo de uma condicional utilizando operador ternário.
+         String resultado = a==b ?"verdadeiro" : "falso";
+
+         System.out.println(resultado);
+
+
     }
 }
