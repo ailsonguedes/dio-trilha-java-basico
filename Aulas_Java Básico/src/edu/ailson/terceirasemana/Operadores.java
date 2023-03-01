@@ -67,5 +67,26 @@ public class Operadores {
 
         System.out.println("Inverteu " + !verdadeiro);
 
+        // Incrementação e Decrementação 
+        int num = 5;
+        // x repetição
+
+        //Incremento
+        System.out.println(++num);
+        System.out.println(num);
+
+        // Decremento
+        System.out.println(--num);
+        System.out.println(num);
+
+        // Aplicado a valores booleanos
+        boolean var = true;
+        System.out.println(!var);
+        System.out.println(var);
+
+        var = !var;
+        System.out.println(!var);
+        System.out.println(var);
+
     }
 }
