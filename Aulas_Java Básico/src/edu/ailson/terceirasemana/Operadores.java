@@ -2,6 +2,9 @@
 package edu.ailson.terceirasemana;
 
 public class Operadores {
+    /**
+     * @param args
+     */
     public static void main (String[] args) {
         // Operadores - 1:
         // Atribuição: = 
@@ -109,6 +112,53 @@ public class Operadores {
 
          System.out.println(resultado);
 
+        // Operadores relacionais
 
+        // == : IGUAL A 
+        // != : DIFERENTE
+        // > : MAIOR QUE 
+        // >= : MAIOR OU IGUAL
+        // < : MENOR 
+        // <= : MENOR IGUAL 
+
+        int num1 = 1;
+        int num2 = 2;
+
+        boolean simNao = num1 == num2; 
+        
+        if (simNao == true)
+            System.out.println("num1 é igual a num2? " + simNao);
+        
+        simNao = num1 != num2;  
+        
+        if (simNao == true)
+            System.out.println("num1 é diferente a num2? " + simNao);
+            
+        if (num1 > num2)
+            System.out.println("Número 1 é maior que o número 2.");
+        else if (num1 < num2)
+            System.out.println("Número 1 é menor que o número 2");
+
+
+        // Operadore lógicos
+
+        // && : Operador lógico E
+        // || : Operador lógico OU
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        /* Aqui estamos usando o operador logico E para fazer a união das expressões
+         * 
+         */
+
+         if (condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+         }
+         else if (condicao1 || condicao2) {
+            System.out.println("Uma entre as duas condições é verdadeira");
+         }
+
+         System.out.println("FIM");
     }
 }
